@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Fenil Denish
+first_name: Fenil
 middle_name:
 last_name: Bardoliya
 email: fbardoli@asu.edu
@@ -312,7 +312,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Bardoliya]
-  first_name: [Fenil Denish]
+  first_name: []
 
   style: apa
   locale: en
