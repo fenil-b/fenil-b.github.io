@@ -5,5 +5,5 @@ title: CV
 nav: true
 nav_order: 2
 cv_pdf: FDB-resume.pdf
-description: Press the PDF button to download my CV (last updated June 2024)
+description: Press the PDF button to download my CV (last updated August 2024)
 ---
