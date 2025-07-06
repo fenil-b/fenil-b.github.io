@@ -8,7 +8,6 @@ category: work
 related_publications: false
 ---
 
-
 {% raw %}
 
 {% endraw %}
