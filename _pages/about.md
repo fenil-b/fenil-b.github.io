@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle:
 
@@ -26,6 +26,6 @@ latest_posts:
 ---
 
 Hello World!
-I am Fenil Bardoliya. I completed my Master of Science in Computer Science at Arizona State University. Currently, I work at [Complex Data Reasoning and Analysis Lab (CoRAL)](https://coral-lab-asu.github.io/), where I am advised by [Dr. Vivek Gupta](https://vgupta123.github.io/). Previously, I was a Computer Vision Research Aide at [DREAMS LAB](https://dreams-lab.github.io/). Before joining ASU, I interned at Samsung Semiconductor India Research. I completed my Bachelor of Engineering in Computer Science from Birla Institute of Technology and Science Pilani (BITS Pilani).
+I'm Fenil Bardoliya. I completed my Master of Science in Computer Science at Arizona State University. Currently, I work at [Complex Data Reasoning and Analysis Lab (CoRAL)](https://coral-lab-asu.github.io/), where I am advised by [Dr. Vivek Gupta](https://vgupta123.github.io/). Previously, I was a Computer Vision Research Aide at [DREAMS LAB](https://dreams-lab.github.io/). Before joining ASU, I interned at Samsung Semiconductor India Research. I completed my Bachelor of Engineering in Computer Science from Birla Institute of Technology and Science Pilani (BITS Pilani).
 
 Apart from academics, I'm keenly observant, and I love traveling. I also like Swimming, Tennis, Basketball and playing Dota 2.
