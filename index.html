@@ -7,17 +7,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-DLlXpsFC.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Dsb4m0Yf.css">
+    <script type="module" crossorigin src="/assets/index-DbcuhA1s.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DoXbv8FA.css">
   </head>
   <body>
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#publications">Publications</a>
-      <a href="#projects">Projects</a>
-      <a href="#news">News</a>
-      <a href="/FDB-Resume.pdf">CV</a>
-      <a href="#contact">Contact</a>
+    <nav class="nav" role="navigation">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#publications" class="nav-link">Publications</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="/FDB-Resume.pdf" class="nav-link">CV</a>
+      <a href="#contact" class="nav-link">Contact</a>
     </nav>
 
     <header id="about" class="hero">
@@ -48,51 +48,46 @@
         </blockquote>
       </section>
 
-      <section class="experience">
+      <section id="experience" class="experience">
         <h2>Experience</h2>
-        <ul>
-          <li><strong>Graduate Research Associate</strong>, CoRAL Lab, ASU (with Dr. Vivek Gupta)</li>
-          <li><strong>Computer Vision Research Aide</strong>, DREAMS LAB, ASU</li>
-          <li><strong>Research Intern</strong>, Samsung Semiconductor India Research</li>
-          <li><strong>B.E. Computer Science</strong>, BITS Pilani</li>
-        </ul>
-        <p class="note">If you're interested in <strong>NLP, text-to-table, or multimodal evaluation</strong>, feel free to reach out. Outside of research, I enjoy traveling, swimming, tennis, basketball, and the occasional game of Dota 2.</p>
-      </section>
-
-      <section id="news" class="news">
-        <h2>News</h2>
-        <div class="news-list">
-          <div class="news-item">
-            <span class="news-date">Jan 15, 2026</span>
-            <span class="news-text"><strong>Program-of-Thought Reveals LLM Abstraction Ceilings</strong> (with Zhou, Gupta, Roth) accepted to <strong>EACL 2026</strong> Findings.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Dec 01, 2025</span>
-            <span class="news-text"><strong>Perceptual Observatory</strong> (WACV 2025): Characterizing robustness and grounding in MLLMs — <a href="https://coral-lab-asu.github.io/PerceptualObservatory/">project page</a>.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Jul 01, 2025</span>
-            <span class="news-text"><strong>Map&Make: Schema Guided Text to Table Generation</strong> (with Ahuja, Baral, Gupta) accepted at <strong>ACL 2025</strong>.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Jun 01, 2025</span>
-            <span class="news-text"><strong>SportSQL</strong> demo (IJCNLP-AACL 2025): Interactive system for real-time sports reasoning and visualization.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Jun 01, 2024</span>
-            <span class="news-text"><strong>Evaluating MLLMs Across Distribution Shifts and Augmentations</strong> (CVPR 2024 Workshop) with CoRAL and DREAMS collaborators.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Jan 01, 2024</span>
-            <span class="news-text">Joined <strong>CoRAL Lab</strong> at ASU, advised by Dr. Vivek Gupta. Previously CV Research Aide at DREAMS LAB; intern at Samsung Semiconductor India Research.</span>
-          </div>
+        <div class="exp-timeline">
+          <article class="exp-card">
+            <div class="exp-marker"></div>
+            <div class="exp-content">
+              <h3>Graduate Research Associate</h3>
+              <p class="exp-org">CoRAL Lab, Arizona State University</p>
+              <p class="exp-detail">With <a href="https://vgupta123.github.io/">Dr. Vivek Gupta</a>. NLP, text-to-table, and multimodal reasoning.</p>
+            </div>
+          </article>
+          <article class="exp-card">
+            <div class="exp-marker"></div>
+            <div class="exp-content">
+              <h3>Computer Vision Research Aide</h3>
+              <p class="exp-org">DREAMS LAB, ASU</p>
+            </div>
+          </article>
+          <article class="exp-card">
+            <div class="exp-marker"></div>
+            <div class="exp-content">
+              <h3>Research Intern</h3>
+              <p class="exp-org">Samsung Semiconductor India Research</p>
+            </div>
+          </article>
+          <article class="exp-card">
+            <div class="exp-marker"></div>
+            <div class="exp-content">
+              <h3>B.E. Computer Science</h3>
+              <p class="exp-org">BITS Pilani</p>
+            </div>
+          </article>
         </div>
+        <p class="exp-note">If you're interested in <strong>NLP, text-to-table, or multimodal evaluation</strong>, feel free to reach out. Outside of research, I enjoy traveling, swimming, tennis, basketball, and the occasional game of Dota 2.</p>
       </section>
 
       <section id="publications" class="publications">
         <h2>Publications</h2>
         <p class="pub-loading" id="pub-loading">Loading…</p>
-        <ol class="pub-list" id="publications-list" hidden></ol>
+        <div class="pub-grid" id="publications-list" hidden></div>
       </section>
 
       <section id="projects" class="projects">

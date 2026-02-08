@@ -6,42 +6,47 @@
     "year": "2026",
     "pdf": "https://cogcomp.seas.upenn.edu/papers/ZBGR26.pdf",
     "website": null,
-    "code": null
+    "code": null,
+    "image": null
   },
   {
-    "title": "The Perceptual Observatory: Characterizing Robustness and Grounding in MLLMs",
+    "title": "The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs",
     "authors": "Tejas Anvekar, Fenil Bardoliya, Pavan K. Turaga, Chitta Baral, Vivek Gupta",
-    "venue": "2025",
+    "venue": "Winter Conference on Applications of Computer Vision",
     "year": "2025",
-    "pdf": "https://arxiv.org/pdf/2512.15949",
+    "pdf": "https://arxiv.org/abs/2512.15949",
     "website": "https://coral-lab-asu.github.io/PerceptualObservatory/",
-    "code": null
+    "code": null,
+    "image": "PO_teaser.jpg"
   },
   {
-    "title": "SPORTSQL: An Interactive System for Real-Time Sports Reasoning and Visualization",
-    "authors": "Sebastian Martinez, Naman Ahuja, Fenil Bardoliya, Suparno Roy Chowdhury, Chris Bryan, others",
-    "venue": "Proceedings of IJCNLP-AACL 2025: System Demonstrations",
+    "title": "SPORTSQL}: An Interactive System for Real-Time Sports Reasoning and Visualization",
+    "authors": "Martinez, Sebastian, Ahuja, Naman, Bardoliya, Fenil, Chowdhury, Suparno Roy, Bryan, Chris, Gupta, Vivek",
+    "venue": "Proceedings of The 14th International Joint Conference on Natural Language Processing and The 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics: System Demonstrations",
     "year": "2025",
-    "pdf": "https://aclanthology.org/2025.ijcnlp-demo.11.pdf",
+    "pdf": "https://aclanthology.org/2025.ijcnlp-demo.11/",
     "website": null,
-    "code": null
+    "code": null,
+    "image": "SportSQL_Architecture_Workflow.png"
   },
   {
-    "title": "Map&Make: Schema Guided Text to Table Generation",
-    "authors": "Naman Ahuja, Fenil Bardoliya, Chitta Baral, Vivek Gupta",
-    "venue": "Proceedings of ACL 2025 (Volume 1: Long Papers)",
+    "title": "Map{&}Make: Schema Guided Text to Table Generation",
+    "authors": "Ahuja, Naman, Bardoliya, Fenil, Baral, Chitta, Gupta, Vivek",
+    "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "year": "2025",
-    "pdf": "https://aclanthology.org/2025.acl-long.1460.pdf",
-    "website": "https://coral-lab-asu.github.io/map-make/",
-    "code": "https://coral-lab-asu.github.io/map-make/"
+    "pdf": "https://aclanthology.org/2025.acl-long.1460/",
+    "website": "https://coral-lab-asu.github.io/map-make",
+    "code": "https://github.com/coral-lab-asu/map-make/tree/main/code",
+    "image": "abstract-m-and-m.png"
   },
   {
     "title": "Evaluating Multimodal Large Language Models Across Distribution Shifts and Augmentations",
-    "authors": "Aayush Atul Verma, Amir Saeidi, Shamanthak Hegde, Ajay Therala, Fenil Denish Bardoliya, others",
-    "venue": "Proceedings of CVPR Workshops",
+    "authors": "Verma, Aayush Atul, Saeidi, Amir, Hegde, Shamanthak, Therala, Ajay, Bardoliya, Fenil Denish, Machavarapu, Nagaraju, Ravindhiran, Shri Ajay Kumar, Malyala, Srija, Chatterjee, Agneet, Yang, Yezhou, Baral, Chitta",
+    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
     "year": "2024",
-    "pdf": "https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/papers/Verma_Evaluating_Multimodal_Large_Language_Models_Across_Distribution_Shifts_and_Augmentations_CVPRW_2024_paper.pdf",
+    "pdf": null,
     "website": null,
-    "code": null
+    "code": null,
+    "image": "MLLM_Hallucinations_thumbnail.png"
   }
 ]
