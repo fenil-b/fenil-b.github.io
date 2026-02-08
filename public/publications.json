@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Program-of-Thought Reveals LLM Abstraction Ceilings",
+    "authors": "Mike Zhou, Fenil Bardoliya, Vivek Gupta, Dan Roth",
+    "venue": "Findings of the Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+    "year": "2026",
+    "pdf": "https://cogcomp.seas.upenn.edu/papers/ZBGR26.pdf",
+    "website": null,
+    "code": null
+  },
+  {
+    "title": "The Perceptual Observatory: Characterizing Robustness and Grounding in MLLMs",
+    "authors": "Tejas Anvekar, Fenil Bardoliya, Pavan K. Turaga, Chitta Baral, Vivek Gupta",
+    "venue": "2025",
+    "year": "2025",
+    "pdf": "https://arxiv.org/pdf/2512.15949",
+    "website": "https://coral-lab-asu.github.io/PerceptualObservatory/",
+    "code": null
+  },
+  {
+    "title": "SPORTSQL: An Interactive System for Real-Time Sports Reasoning and Visualization",
+    "authors": "Sebastian Martinez, Naman Ahuja, Fenil Bardoliya, Suparno Roy Chowdhury, Chris Bryan, others",
+    "venue": "Proceedings of IJCNLP-AACL 2025: System Demonstrations",
+    "year": "2025",
+    "pdf": "https://aclanthology.org/2025.ijcnlp-demo.11.pdf",
+    "website": null,
+    "code": null
+  },
+  {
+    "title": "Map&Make: Schema Guided Text to Table Generation",
+    "authors": "Naman Ahuja, Fenil Bardoliya, Chitta Baral, Vivek Gupta",
+    "venue": "Proceedings of ACL 2025 (Volume 1: Long Papers)",
+    "year": "2025",
+    "pdf": "https://aclanthology.org/2025.acl-long.1460.pdf",
+    "website": "https://coral-lab-asu.github.io/map-make/",
+    "code": "https://coral-lab-asu.github.io/map-make/"
+  },
+  {
+    "title": "Evaluating Multimodal Large Language Models Across Distribution Shifts and Augmentations",
+    "authors": "Aayush Atul Verma, Amir Saeidi, Shamanthak Hegde, Ajay Therala, Fenil Denish Bardoliya, others",
+    "venue": "Proceedings of CVPR Workshops",
+    "year": "2024",
+    "pdf": "https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/papers/Verma_Evaluating_Multimodal_Large_Language_Models_Across_Distribution_Shifts_and_Augmentations_CVPRW_2024_paper.pdf",
+    "website": null,
+    "code": null
+  }
+]

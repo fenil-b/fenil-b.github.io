@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliography preview</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 1rem auto; padding: 0 1rem; }
+    h1 { font-size: 1.25rem; }
+    p.muted { color: #666; font-size: 0.9rem; }
+    #list { list-style: decimal; padding-left: 1.25rem; }
+    #list li { margin-bottom: 1rem; }
+    .pub-title { font-weight: 600; display: block; }
+    .pub-meta { font-size: 0.9rem; color: #555; }
+    .pub-links { font-size: 0.9rem; margin-top: 0.25rem; }
+    .pub-links a { margin-right: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Bibliography preview</h1>
+  <p class="muted">Generated from <code>publications.bib</code>. Edit that file, run <code>npm run bib</code>, then refresh this page.</p>
+  <ol id="list"></ol>
+  <script>
+    fetch('/publications.json')
+      .then(r => r.ok ? r.json() : [])
+      .then(entries => {
+        const el = document.getElementById('list');
+        el.innerHTML = entries.map(p => {
+          const links = [];
+          if (p.pdf) links.push('<a href="' + p.pdf + '">PDF</a>');
+          if (p.website) links.push('<a href="' + p.website + '">Website</a>');
+          if (p.code) links.push('<a href="' + p.code + '">Code</a>');
+          return '<li><span class="pub-title">' + escape(p.title) + '</span><span class="pub-meta">' + escape(p.authors) + '. ' + escape(p.venue) + ' ' + escape(p.year) + '.</span><div class="pub-links">' + links.join(' ') + '</div></li>';
+        }).join('');
+      });
+    function escape(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+  </script>
+</body>
+</html>

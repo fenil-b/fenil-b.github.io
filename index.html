@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fenil Bardoliya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#news">News</a>
+      <a href="/FDB-Resume.pdf">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <header id="about" class="hero">
+      <div class="hero-content">
+        <h1>Fenil Bardoliya</h1>
+        <p class="tagline">MS in Computer Science @ Arizona State University · Research at CoRAL Lab</p>
+        <p class="location">Tempe, Arizona</p>
+        <img src="/prof_pic.jpg" alt="Fenil Bardoliya" class="profile-pic" />
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p>I'm <strong>Fenil Bardoliya</strong>, an MS graduate in Computer Science from <strong>Arizona State University</strong>. I work at the Complex Data Reasoning and Analysis Lab (CoRAL), advised by <a href="https://vgupta123.github.io/">Dr. Vivek Gupta</a>. Previously I was a Computer Vision Research Aide at DREAMS LAB and interned at Samsung Semiconductor India Research. I received my B.E. in Computer Science from <strong>BITS Pilani</strong>.</p>
+        <p>My research focuses on <strong>natural language processing</strong>, <strong>text-to-table generation</strong>, and <strong>multimodal reasoning</strong>—building systems that turn unstructured text into interpretable, structured data and that reason robustly across modalities.</p>
+      </section>
+
+      <section class="research">
+        <h2>Research</h2>
+        <p><strong>Broadly, I work at the intersection of:</strong></p>
+        <ul class="pillars">
+          <li><strong>Text-to-Table & Information Extraction</strong> — Schema-guided extraction, proposition-based reasoning, and table generation from long-form text</li>
+          <li><strong>Multimodal LLMs</strong> — Evaluation under distribution shift, robustness, and grounding (e.g. Perceptual Observatory, CVPR Workshop)</li>
+          <li><strong>NL2SQL & Interactive Systems</strong> — Real-time question answering and visualization over dynamic data (e.g. SportSQL)</li>
+        </ul>
+        <blockquote>
+          I aim to build <strong>practical, interpretable systems</strong> that improve how we extract and reason over structured information from text and multimodal data.
+        </blockquote>
+      </section>
+
+      <section class="experience">
+        <h2>Experience</h2>
+        <ul>
+          <li><strong>Graduate Research Associate</strong>, CoRAL Lab, ASU (with Dr. Vivek Gupta)</li>
+          <li><strong>Computer Vision Research Aide</strong>, DREAMS LAB, ASU</li>
+          <li><strong>Research Intern</strong>, Samsung Semiconductor India Research</li>
+          <li><strong>B.E. Computer Science</strong>, BITS Pilani</li>
+        </ul>
+        <p class="note">If you're interested in <strong>NLP, text-to-table, or multimodal evaluation</strong>, feel free to reach out. Outside of research, I enjoy traveling, swimming, tennis, basketball, and the occasional game of Dota 2.</p>
+      </section>
+
+      <section id="news" class="news">
+        <h2>News</h2>
+        <div class="news-list">
+          <div class="news-item">
+            <span class="news-date">Jan 15, 2026</span>
+            <span class="news-text"><strong>Program-of-Thought Reveals LLM Abstraction Ceilings</strong> (with Zhou, Gupta, Roth) accepted to <strong>EACL 2026</strong> Findings.</span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Dec 01, 2025</span>
+            <span class="news-text"><strong>Perceptual Observatory</strong> (WACV 2025): Characterizing robustness and grounding in MLLMs — <a href="https://coral-lab-asu.github.io/PerceptualObservatory/">project page</a>.</span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Jul 01, 2025</span>
+            <span class="news-text"><strong>Map&Make: Schema Guided Text to Table Generation</strong> (with Ahuja, Baral, Gupta) accepted at <strong>ACL 2025</strong>.</span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Jun 01, 2025</span>
+            <span class="news-text"><strong>SportSQL</strong> demo (IJCNLP-AACL 2025): Interactive system for real-time sports reasoning and visualization.</span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Jun 01, 2024</span>
+            <span class="news-text"><strong>Evaluating MLLMs Across Distribution Shifts and Augmentations</strong> (CVPR 2024 Workshop) with CoRAL and DREAMS collaborators.</span>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Jan 01, 2024</span>
+            <span class="news-text">Joined <strong>CoRAL Lab</strong> at ASU, advised by Dr. Vivek Gupta. Previously CV Research Aide at DREAMS LAB; intern at Samsung Semiconductor India Research.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="publications">
+        <h2>Publications</h2>
+        <p class="pub-loading" id="pub-loading">Loading…</p>
+        <ol class="pub-list" id="publications-list" hidden></ol>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li><a href="https://coral-lab-asu.github.io/PerceptualObservatory/">Perceptual Observatory</a> — Characterizing robustness and grounding in MLLMs (WACV 2025)</li>
+          <li><a href="https://coral-lab-asu.github.io/map-make/">Map&Make</a> — Schema-guided text-to-table generation (ACL 2025)</li>
+          <li><strong>SportSQL</strong> — Interactive system for real-time sports reasoning and visualization (IJCNLP-AACL 2025 demo)</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>
+          <a href="mailto:fenildbardoliya@gmail.com">Email</a> ·
+          <a href="https://scholar.google.com/citations?user=0dxHSiIAAAAJ">Google Scholar</a> ·
+          <a href="https://www.linkedin.com/in/fenil-bardoliya/">LinkedIn</a> ·
+          <a href="/FDB-Resume.pdf">CV</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Fenil Bardoliya</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
