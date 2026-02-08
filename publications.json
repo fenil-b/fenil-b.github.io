@@ -20,7 +20,7 @@
     "image": "PO_teaser.jpg"
   },
   {
-    "title": "SPORTSQL}: An Interactive System for Real-Time Sports Reasoning and Visualization",
+    "title": "SPORTSQL: An Interactive System for Real-Time Sports Reasoning and Visualization",
     "authors": "Martinez, Sebastian, Ahuja, Naman, Bardoliya, Fenil, Chowdhury, Suparno Roy, Bryan, Chris, Gupta, Vivek",
     "venue": "Proceedings of The 14th International Joint Conference on Natural Language Processing and The 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics: System Demonstrations",
     "year": "2025",
@@ -30,7 +30,7 @@
     "image": "SportSQL_Architecture_Workflow.png"
   },
   {
-    "title": "Map{&}Make: Schema Guided Text to Table Generation",
+    "title": "Map&Make: Schema Guided Text to Table Generation",
     "authors": "Ahuja, Naman, Bardoliya, Fenil, Baral, Chitta, Gupta, Vivek",
     "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "year": "2025",
