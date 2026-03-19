@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-fRtL0CY6.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DxhpDrbl.css">
+    <script type="module" crossorigin src="/assets/index-D9up7tHG.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DxETViGP.css">
   </head>
   <body>
     <canvas id="bg-canvas" aria-hidden="true"></canvas>
@@ -30,9 +30,6 @@
 
       <div class="topbar-actions">
         <button class="icon-btn" type="button" id="theme-toggle" aria-label="Toggle theme">Theme</button>
-        <button class="kbd-btn" type="button" id="open-palette" aria-label="Open command palette (Ctrl+K)">
-          Command <kbd>Ctrl</kbd>+<kbd>K</kbd>
-        </button>
         <a class="cv-link" data-resume-link href="/FDB-Resume.pdf" target="_blank" rel="noopener">CV</a>
       </div>
     </header>
@@ -41,19 +38,20 @@
       <section id="about" class="section hero-section">
         <div class="hero-grid">
           <div class="hero-text reveal">
-            <p class="eyebrow">MS in Computer Science @ Arizona State University · Research at CoRAL Lab</p>
+            <p class="eyebrow">MS in Computer Science · Arizona State University</p>
+            <p class="eyebrow eyebrow-sub">Research at CoRAL Lab · Tempe, Arizona</p>
             <h1>Fenil Bardoliya</h1>
             <p class="lead">
-              I work at the intersection of <strong>natural language processing</strong>, <strong>text-to-table generation</strong>, and
-              <strong>multimodal reasoning</strong> building systems that turn unstructured text into interpretable, structured data.
+              I’m Fenil Bardoliya, an MS graduate in Computer Science from Arizona State University. I work at the Complex Data Reasoning and Analysis Lab (CoRAL), advised by <a href="https://vgupta123.github.io/" target="_blank" rel="noopener">Dr. Vivek Gupta</a>.
+              Previously, I was a Computer Vision Research Aide at DREAMS LAB and interned at Samsung Semiconductor India Research.
+              I received my B.E. in Computer Science from BITS Pilani.
             </p>
-            <div class="hero-cta">
-              <a class="primary-btn" href="#projects">Explore projects</a>
-              <a class="secondary-btn" href="#contact">Reach out</a>
-            </div>
+            <p class="lead lead-2">
+              My research focuses on <strong>natural language processing</strong>, <strong>text-to-table generation</strong>, and <strong>multimodal reasoning</strong>—building systems that turn unstructured text into interpretable, structured data and reason robustly across modalities.
+            </p>
             <div class="signal-row" aria-live="polite">
               <span class="signal-dot" id="signal-dot" aria-hidden="true"></span>
-              <span class="signal-text" id="signal-text">Status: available for collaborations</span>
+              <span class="signal-text" id="signal-text">Looking for full-time roles | Immediately available</span>
             </div>
           </div>
 
@@ -62,21 +60,6 @@
               <img id="profile-img" class="avatar-img" src="/prof_pic.jpg" alt="Portrait of Fenil Bardoliya" />
               <div class="avatar-fallback" aria-hidden="true"></div>
               <div class="avatar-ring" aria-hidden="true"></div>
-            </div>
-
-            <div class="stats" role="list" aria-label="Highlights">
-              <div class="stat" role="listitem">
-                <div class="stat-value">3</div>
-                <div class="stat-label">interactive projects</div>
-              </div>
-              <div class="stat" role="listitem">
-                <div class="stat-value">NLP</div>
-                <div class="stat-label">text-to-table</div>
-              </div>
-              <div class="stat" role="listitem">
-                <div class="stat-value">ML</div>
-                <div class="stat-label">multimodal eval</div>
-              </div>
             </div>
           </div>
         </div>
@@ -88,15 +71,24 @@
           <p class="muted">Broadly, I work at the intersection of:</p>
         </div>
 
-        <ul class="pillars reveal">
-          <li><strong>Text-to-Table & Information Extraction</strong> — Schema-guided extraction, proposition-based reasoning, and table generation from long-form text</li>
-          <li><strong>Multimodal LLMs</strong> — Evaluation under distribution shift, robustness, and grounding</li>
-          <li><strong>NL2SQL & Interactive Systems</strong> — Real-time question answering and visualization over dynamic data</li>
-        </ul>
-
-        <blockquote class="reveal">
-          I aim to build <strong>practical, interpretable systems</strong> that improve how we extract and reason over structured information from text and multimodal data.
-        </blockquote>
+        <div class="keyword-grid reveal" role="list" aria-label="Research keywords">
+          <div class="keyword-card" role="listitem">
+            <div class="keyword-title">Text-to-Table</div>
+            <div class="keyword-desc">Schema-guided extraction and structured generation from long-form text.</div>
+          </div>
+          <div class="keyword-card" role="listitem">
+            <div class="keyword-title">Information Extraction</div>
+            <div class="keyword-desc">Proposition-based reasoning for interpretable, grounded outputs.</div>
+          </div>
+          <div class="keyword-card" role="listitem">
+            <div class="keyword-title">Multimodal LLMs</div>
+            <div class="keyword-desc">Robustness, grounding, and evaluation under distribution shift.</div>
+          </div>
+          <div class="keyword-card" role="listitem">
+            <div class="keyword-title">NL2SQL & Interactive Systems</div>
+            <div class="keyword-desc">Real-time QA + visualization over dynamic data.</div>
+          </div>
+        </div>
       </section>
 
       <section id="experience" class="section">
@@ -110,21 +102,21 @@
             <div class="timeline-dot" aria-hidden="true"></div>
             <div class="timeline-body">
               <h3>Graduate Research Associate</h3>
-              <p class="timeline-sub">CoRAL Lab, Arizona State University · with Dr. Vivek Gupta</p>
+              <p class="timeline-sub">CoRAL Lab, ASU · NLP, text-to-table, multimodal evaluation · with Dr. Vivek Gupta</p>
             </div>
           </article>
           <article class="timeline-item" role="listitem">
             <div class="timeline-dot" aria-hidden="true"></div>
             <div class="timeline-body">
               <h3>Computer Vision Research Aide</h3>
-              <p class="timeline-sub">DREAMS LAB, ASU</p>
+              <p class="timeline-sub">DREAMS LAB, ASU · research support and experimentation across CV workflows</p>
             </div>
           </article>
           <article class="timeline-item" role="listitem">
             <div class="timeline-dot" aria-hidden="true"></div>
             <div class="timeline-body">
               <h3>Research Intern</h3>
-              <p class="timeline-sub">Samsung Semiconductor India Research</p>
+              <p class="timeline-sub">Samsung Semiconductor India Research · applied research internship</p>
             </div>
           </article>
           <article class="timeline-item" role="listitem">
@@ -190,19 +182,11 @@
       <section id="publications" class="section">
         <div class="section-head reveal">
           <h2>Publications</h2>
-          <div class="pub-controls">
-            <label class="sr-only" for="pub-search">Search publications</label>
-            <input id="pub-search" type="search" placeholder="Search titles, authors, venues..." autocomplete="off" />
-            <label class="sr-only" for="pub-year">Filter by year</label>
-            <select id="pub-year" aria-label="Filter by year">
-              <option value="all">All years</option>
-            </select>
-          </div>
         </div>
 
         <div class="pub-status">
           <p class="pub-loading" id="pub-loading">Loading...</p>
-          <p class="pub-empty muted" id="pub-empty" hidden>No matching publications.</p>
+          <p class="pub-empty muted" id="pub-empty" hidden>No publications loaded.</p>
         </div>
 
         <ol class="pub-list" id="publications-list" hidden></ol>
@@ -211,14 +195,14 @@
       <section id="contact" class="section">
         <div class="section-head reveal">
           <h2>Contact</h2>
-          <p class="muted">Let us build something useful.</p>
+          <p class="muted">Let’s build something useful.</p>
         </div>
 
         <div class="contact-grid reveal">
           <a class="contact-link" href="mailto:fenildbardoliya@gmail.com">Email</a>
           <a class="contact-link" href="https://scholar.google.com/citations?user=0dxHSiIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
           <a class="contact-link" href="https://www.linkedin.com/in/fenil-bardoliya/" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="contact-link" data-resume-link-2 href="/FDB-Resume.pdf" target="_blank" rel="noopener">CV</a>
+          <a class="contact-link" data-resume-link-2 href="/FDB-Resume.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
         </div>
       </section>
     </main>
@@ -226,18 +210,6 @@
     <footer class="footer">
       <p>Fenil Bardoliya · <span id="year"></span></p>
     </footer>
-
-    <div class="palette" id="cmd-palette" aria-hidden="true">
-      <div class="palette-panel" role="dialog" aria-modal="true" aria-label="Command palette">
-        <div class="palette-top">
-          <span class="palette-icon" aria-hidden="true"></span>
-          <input id="palette-input" type="text" placeholder="Jump to a section..." />
-          <button class="icon-btn" type="button" id="palette-close" aria-label="Close command palette">×</button>
-        </div>
-        <ul class="palette-results" id="palette-results" role="listbox"></ul>
-        <p class="palette-hint muted">Use ↑ ↓ and Enter. Press Esc to close.</p>
-      </div>
-    </div>
 
     <div class="modal" id="project-modal" aria-hidden="true">
       <div class="modal-dialog" role="dialog" aria-modal="true" aria-label="Project details">
