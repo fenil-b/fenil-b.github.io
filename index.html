@@ -7,121 +7,248 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-B58dG9Ys.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BlfIdD8U.css">
+    <script type="module" crossorigin src="/assets/index-fRtL0CY6.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DxhpDrbl.css">
   </head>
   <body>
-    <div class="layout">
-      <aside class="sidebar">
-        <div class="sidebar-inner">
-          <div class="identity">
-            <img src="/prof_pic.jpg" alt="Fenil Bardoliya" class="profile-pic" />
-            <h1 class="name">Fenil Bardoliya</h1>
-            <p class="tagline">MS in Computer Science @ ASU</p>
-            <p class="tagline-sub">Research at CoRAL Lab · Tempe, Arizona</p>
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <a class="brand-name" href="#about">Fenil Bardoliya</a>
+      </div>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about" class="nav-link" data-nav="about">About</a>
+        <a href="#research" class="nav-link" data-nav="research">Research</a>
+        <a href="#experience" class="nav-link" data-nav="experience">Experience</a>
+        <a href="#projects" class="nav-link" data-nav="projects">Projects</a>
+        <a href="#publications" class="nav-link" data-nav="publications">Publications</a>
+        <a href="#contact" class="nav-link" data-nav="contact">Contact</a>
+      </nav>
+
+      <div class="topbar-actions">
+        <button class="icon-btn" type="button" id="theme-toggle" aria-label="Toggle theme">Theme</button>
+        <button class="kbd-btn" type="button" id="open-palette" aria-label="Open command palette (Ctrl+K)">
+          Command <kbd>Ctrl</kbd>+<kbd>K</kbd>
+        </button>
+        <a class="cv-link" data-resume-link href="/FDB-Resume.pdf" target="_blank" rel="noopener">CV</a>
+      </div>
+    </header>
+
+    <main class="content">
+      <section id="about" class="section hero-section">
+        <div class="hero-grid">
+          <div class="hero-text reveal">
+            <p class="eyebrow">MS in Computer Science @ Arizona State University · Research at CoRAL Lab</p>
+            <h1>Fenil Bardoliya</h1>
+            <p class="lead">
+              I work at the intersection of <strong>natural language processing</strong>, <strong>text-to-table generation</strong>, and
+              <strong>multimodal reasoning</strong> building systems that turn unstructured text into interpretable, structured data.
+            </p>
+            <div class="hero-cta">
+              <a class="primary-btn" href="#projects">Explore projects</a>
+              <a class="secondary-btn" href="#contact">Reach out</a>
+            </div>
+            <div class="signal-row" aria-live="polite">
+              <span class="signal-dot" id="signal-dot" aria-hidden="true"></span>
+              <span class="signal-text" id="signal-text">Status: available for collaborations</span>
+            </div>
           </div>
-          <nav class="sidebar-nav" role="navigation">
-            <a href="#about" class="nav-link">About</a>
-            <a href="#research" class="nav-link">Research</a>
-            <a href="#experience" class="nav-link">Experience</a>
-            <a href="#publications" class="nav-link">Publications</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="/FDB-Resume.pdf" class="nav-link">CV</a>
-          </nav>
-          <div class="sidebar-contact">
-            <a href="mailto:fenildbardoliya@gmail.com">Email</a>
-            <a href="https://scholar.google.com/citations?user=0dxHSiIAAAAJ" target="_blank" rel="noopener">Scholar</a>
-            <a href="https://www.linkedin.com/in/fenil-bardoliya/" target="_blank" rel="noopener">LinkedIn</a>
+
+          <div class="hero-visual reveal">
+            <div class="avatar-shell">
+              <img id="profile-img" class="avatar-img" src="/prof_pic.jpg" alt="Portrait of Fenil Bardoliya" />
+              <div class="avatar-fallback" aria-hidden="true"></div>
+              <div class="avatar-ring" aria-hidden="true"></div>
+            </div>
+
+            <div class="stats" role="list" aria-label="Highlights">
+              <div class="stat" role="listitem">
+                <div class="stat-value">3</div>
+                <div class="stat-label">interactive projects</div>
+              </div>
+              <div class="stat" role="listitem">
+                <div class="stat-value">NLP</div>
+                <div class="stat-label">text-to-table</div>
+              </div>
+              <div class="stat" role="listitem">
+                <div class="stat-value">ML</div>
+                <div class="stat-label">multimodal eval</div>
+              </div>
+            </div>
           </div>
         </div>
-      </aside>
+      </section>
 
-      <main class="content">
-        <section class="intro section" id="about">
-          <p>I'm <strong>Fenil Bardoliya</strong>, an MS graduate in Computer Science from <strong>Arizona State University</strong>. I work at the Complex Data Reasoning and Analysis Lab (CoRAL), advised by <a href="https://vgupta123.github.io/">Dr. Vivek Gupta</a>. Previously I was a Computer Vision Research Aide at DREAMS LAB and interned at Samsung Semiconductor India Research. I received my B.E. in Computer Science from <strong>BITS Pilani</strong>.</p>
-          <p>My research focuses on <strong>natural language processing</strong>, <strong>text-to-table generation</strong>, and <strong>multimodal reasoning</strong>—building systems that turn unstructured text into interpretable, structured data and that reason robustly across modalities.</p>
-        </section>
-
-        <section id="research" class="research section">
+      <section id="research" class="section">
+        <div class="section-head reveal">
           <h2>Research</h2>
-          <p class="section-lead">Broadly, I work at the intersection of:</p>
-          <ul class="pillars">
-            <li><strong>Text-to-Table & Information Extraction</strong> — Schema-guided extraction, proposition-based reasoning, and table generation from long-form text</li>
-            <li><strong>Multimodal LLMs</strong> — Evaluation under distribution shift, robustness, and grounding (e.g. Perceptual Observatory, CVPR Workshop)</li>
-            <li><strong>NL2SQL & Interactive Systems</strong> — Real-time question answering and visualization over dynamic data (e.g. SportSQL)</li>
-          </ul>
-          <blockquote>
-            I aim to build <strong>practical, interpretable systems</strong> that improve how we extract and reason over structured information from text and multimodal data.
-          </blockquote>
-        </section>
+          <p class="muted">Broadly, I work at the intersection of:</p>
+        </div>
 
-        <section id="experience" class="experience section">
+        <ul class="pillars reveal">
+          <li><strong>Text-to-Table & Information Extraction</strong> — Schema-guided extraction, proposition-based reasoning, and table generation from long-form text</li>
+          <li><strong>Multimodal LLMs</strong> — Evaluation under distribution shift, robustness, and grounding</li>
+          <li><strong>NL2SQL & Interactive Systems</strong> — Real-time question answering and visualization over dynamic data</li>
+        </ul>
+
+        <blockquote class="reveal">
+          I aim to build <strong>practical, interpretable systems</strong> that improve how we extract and reason over structured information from text and multimodal data.
+        </blockquote>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-head reveal">
           <h2>Experience</h2>
-          <div class="exp-timeline">
-            <article class="exp-card">
-              <div class="exp-marker"></div>
-              <div class="exp-content">
-                <h3>Graduate Research Associate</h3>
-                <p class="exp-org">CoRAL Lab, Arizona State University</p>
-                <p class="exp-detail">With <a href="https://vgupta123.github.io/">Dr. Vivek Gupta</a>. NLP, text-to-table, and multimodal reasoning.</p>
-              </div>
-            </article>
-            <article class="exp-card">
-              <div class="exp-marker"></div>
-              <div class="exp-content">
-                <h3>Computer Vision Research Aide</h3>
-                <p class="exp-org">DREAMS LAB, ASU</p>
-              </div>
-            </article>
-            <article class="exp-card">
-              <div class="exp-marker"></div>
-              <div class="exp-content">
-                <h3>Research Intern</h3>
-                <p class="exp-org">Samsung Semiconductor India Research</p>
-              </div>
-            </article>
-            <article class="exp-card">
-              <div class="exp-marker"></div>
-              <div class="exp-content">
-                <h3>B.E. Computer Science</h3>
-                <p class="exp-org">BITS Pilani</p>
-              </div>
-            </article>
-          </div>
-          <p class="exp-note">If you're interested in <strong>NLP, text-to-table, or multimodal evaluation</strong>, feel free to reach out. Outside of research, I enjoy traveling, swimming, tennis, basketball, and the occasional game of Dota 2.</p>
-        </section>
+          <p class="muted">A quick timeline of roles and collaborations.</p>
+        </div>
 
-        <section id="publications" class="publications section">
-          <h2>Publications</h2>
-          <p class="pub-loading" id="pub-loading">Loading…</p>
-          <div class="pub-grid" id="publications-list" hidden></div>
-        </section>
+        <div class="timeline reveal" role="list" aria-label="Experience timeline">
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <h3>Graduate Research Associate</h3>
+              <p class="timeline-sub">CoRAL Lab, Arizona State University · with Dr. Vivek Gupta</p>
+            </div>
+          </article>
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <h3>Computer Vision Research Aide</h3>
+              <p class="timeline-sub">DREAMS LAB, ASU</p>
+            </div>
+          </article>
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <h3>Research Intern</h3>
+              <p class="timeline-sub">Samsung Semiconductor India Research</p>
+            </div>
+          </article>
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <h3>B.E. Computer Science</h3>
+              <p class="timeline-sub">BITS Pilani</p>
+            </div>
+          </article>
+        </div>
 
-        <section id="projects" class="projects section">
+        <p class="note reveal">
+          If you're interested in <strong>NLP, text-to-table, or multimodal evaluation</strong>, feel free to reach out. Outside of research,
+          I enjoy traveling, swimming, tennis, basketball, and the occasional game of Dota 2.
+        </p>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-head reveal">
           <h2>Projects</h2>
-          <div class="project-grid">
-            <a href="https://coral-lab-asu.github.io/PerceptualObservatory/" class="project-card" target="_blank" rel="noopener">
-              <h3>Perceptual Observatory</h3>
-              <p>Characterizing robustness and grounding in MLLMs.</p>
-              <span class="project-meta">WACV 2025</span>
-            </a>
-            <a href="https://coral-lab-asu.github.io/map-make/" class="project-card" target="_blank" rel="noopener">
-              <h3>Map&Make</h3>
-              <p>Schema-guided text-to-table generation.</p>
-              <span class="project-meta">ACL 2025</span>
-            </a>
-            <a href="#" class="project-card" aria-label="SportSQL project">
-              <h3>SportSQL</h3>
-              <p>Interactive system for real-time sports reasoning and visualization.</p>
-              <span class="project-meta">IJCNLP-AACL 2025 demo</span>
-            </a>
-          </div>
-        </section>
+          <p class="muted">Small demos, big ideas.</p>
+        </div>
 
-        <footer class="content-footer">
-          <p>Fenil Bardoliya</p>
-        </footer>
-      </main>
+        <div class="card-grid reveal" id="projects-grid">
+          <article class="project-card" data-project-id="perceptual">
+            <div class="project-top">
+              <h3>Perceptual Observatory</h3>
+              <span class="project-meta">WACV 2025</span>
+            </div>
+            <p class="project-desc">Characterizing robustness and grounding in multimodal large language models.</p>
+            <div class="project-actions">
+              <a class="ghost-link" href="https://coral-lab-asu.github.io/PerceptualObservatory/" target="_blank" rel="noopener">Website</a>
+              <button class="ghost-btn" type="button" data-open-project>Details</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-id="map-make">
+            <div class="project-top">
+              <h3>Map&Make</h3>
+              <span class="project-meta">ACL 2025</span>
+            </div>
+            <p class="project-desc">Schema-guided text to table generation with interpretable structure.</p>
+            <div class="project-actions">
+              <a class="ghost-link" href="https://coral-lab-asu.github.io/map-make/" target="_blank" rel="noopener">Website</a>
+              <button class="ghost-btn" type="button" data-open-project>Details</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-id="sportsql">
+            <div class="project-top">
+              <h3>SportSQL</h3>
+              <span class="project-meta">IJCNLP-AACL 2025 demo</span>
+            </div>
+            <p class="project-desc">Interactive system for real-time sports reasoning and visualization.</p>
+            <div class="project-actions">
+              <a class="ghost-link" href="#" onclick="return false;" aria-disabled="true">Website</a>
+              <button class="ghost-btn" type="button" data-open-project>Details</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="section-head reveal">
+          <h2>Publications</h2>
+          <div class="pub-controls">
+            <label class="sr-only" for="pub-search">Search publications</label>
+            <input id="pub-search" type="search" placeholder="Search titles, authors, venues..." autocomplete="off" />
+            <label class="sr-only" for="pub-year">Filter by year</label>
+            <select id="pub-year" aria-label="Filter by year">
+              <option value="all">All years</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="pub-status">
+          <p class="pub-loading" id="pub-loading">Loading...</p>
+          <p class="pub-empty muted" id="pub-empty" hidden>No matching publications.</p>
+        </div>
+
+        <ol class="pub-list" id="publications-list" hidden></ol>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p class="muted">Let us build something useful.</p>
+        </div>
+
+        <div class="contact-grid reveal">
+          <a class="contact-link" href="mailto:fenildbardoliya@gmail.com">Email</a>
+          <a class="contact-link" href="https://scholar.google.com/citations?user=0dxHSiIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="contact-link" href="https://www.linkedin.com/in/fenil-bardoliya/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="contact-link" data-resume-link-2 href="/FDB-Resume.pdf" target="_blank" rel="noopener">CV</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Fenil Bardoliya · <span id="year"></span></p>
+    </footer>
+
+    <div class="palette" id="cmd-palette" aria-hidden="true">
+      <div class="palette-panel" role="dialog" aria-modal="true" aria-label="Command palette">
+        <div class="palette-top">
+          <span class="palette-icon" aria-hidden="true"></span>
+          <input id="palette-input" type="text" placeholder="Jump to a section..." />
+          <button class="icon-btn" type="button" id="palette-close" aria-label="Close command palette">×</button>
+        </div>
+        <ul class="palette-results" id="palette-results" role="listbox"></ul>
+        <p class="palette-hint muted">Use ↑ ↓ and Enter. Press Esc to close.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="project-modal" aria-hidden="true">
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-label="Project details">
+        <div class="modal-header">
+          <h3 id="modal-title"></h3>
+          <button class="icon-btn" type="button" id="modal-close" aria-label="Close modal">×</button>
+        </div>
+        <p class="modal-sub muted" id="modal-subtitle"></p>
+        <p id="modal-description"></p>
+        <div class="modal-links" id="modal-links"></div>
+      </div>
     </div>
 
   </body>
