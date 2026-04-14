@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-4ensRFot.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DNz1IOvC.css">
+    <script type="module" crossorigin src="/assets/index-DWn8fMcV.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BTC0Gv6-.css">
   </head>
   <body>
     <header class="topbar">
@@ -19,11 +19,11 @@
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#about" class="nav-link" data-nav="about">About</a>
         <a href="#research" class="nav-link" data-nav="research">Research</a>
-        <a href="#experience" class="nav-link" data-nav="experience">Experience</a>
-        <a href="#news" class="nav-link" data-nav="news">News</a>
-        <a href="#projects" class="nav-link" data-nav="projects">Projects</a>
         <a href="#publications" class="nav-link" data-nav="publications">Publications</a>
-        <a href="#tech-stack" class="nav-link" data-nav="tech-stack">Tech Stack</a>
+        <a href="#experience" class="nav-link" data-nav="experience">Experience</a>
+        <a href="#updates" class="nav-link" data-nav="updates">Updates</a>
+        <a href="#projects" class="nav-link" data-nav="projects">Projects</a>
+        <a href="#tech-stack" class="nav-link" data-nav="tech-stack">Stack</a>
         <a href="#contact" class="nav-link" data-nav="contact">Contact</a>
       </nav>
 
@@ -51,19 +51,15 @@
       <section id="about" class="section hero-section">
         <div class="hero-grid">
           <div class="hero-text reveal">
-            <p class="eyebrow">MS in Computer Science · Arizona State University</p>
-            <p class="eyebrow eyebrow-sub">Research at CoRAL Lab · Tempe, Arizona</p>
+            <p class="eyebrow">MS in Computer Science · Arizona State University · CoRAL Lab</p>
+            <p class="eyebrow eyebrow-sub">Tempe, Arizona</p>
             <h1>Fenil Bardoliya</h1>
             <p class="lead">
-              I’m Fenil Bardoliya, an MS graduate in Computer Science from Arizona State University. I work at the Complex Data Reasoning and Analysis Lab (CoRAL), advised by <a href="https://vgupta123.github.io/" target="_blank" rel="noopener">Dr. Vivek Gupta</a>.
-              Previously, I was a Computer Vision Research Aide at DREAMS LAB and interned at Samsung Semiconductor India Research.
-              I received my B.E. in Computer Science from BITS Pilani.
-            </p>
-            <p class="lead lead-2">
-              My research focuses on <strong>natural language processing</strong>, <strong>text-to-table generation</strong>, and <strong>multimodal reasoning</strong>—building systems that turn unstructured text into interpretable, structured data and reason robustly across modalities.
+              I work on <strong>NLP</strong>, <strong>text-to-table generation</strong>, and <strong>multimodal reasoning</strong> at the Complex Data Reasoning and Analysis Lab (CoRAL), advised by <a href="https://vgupta123.github.io/" target="_blank" rel="noopener">Dr. Vivek Gupta</a>.
+              I hold an MS in Computer Science from ASU; before that I was a Computer Vision Research Aide at DREAMS LAB, interned at Samsung Semiconductor India Research, and earned a B.E. in Computer Science from BITS Pilani.
             </p>
             <p class="lead intro-note reveal">
-              If you’re interested in <strong>NLP, text-to-table, or multimodal evaluation</strong>, feel free to reach out. Outside of research, I enjoy traveling, swimming, tennis, basketball, and the occasional game of Dota 2.
+              If our interests overlap, email is welcome. Outside the lab: travel, swimming, tennis, basketball, and Dota 2.
             </p>
             <div class="signal-row" aria-live="polite">
               <span class="signal-dot" id="signal-dot" aria-hidden="true"></span>
@@ -83,23 +79,43 @@
 
       <section id="research" class="section">
         <div class="section-head reveal">
-          <h2>Research Interests 🧠</h2>
-          <p class="muted section-tagline">Core areas I care about.</p>
+          <h2>Research</h2>
+          <p class="muted section-tagline">Structured data from language; robust evaluation across modalities.</p>
         </div>
 
         <div class="keyword-grid reveal" role="list" aria-label="Research keywords">
           <div class="keyword-card" role="listitem">
-            <div class="keyword-title">📊 Text-to-Table</div>
+            <div class="keyword-title">Text-to-table</div>
+            <p class="keyword-desc">Turning prose into tables and other structured targets for analysis and downstream use.</p>
           </div>
           <div class="keyword-card" role="listitem">
-            <div class="keyword-title">🧾 Information Extraction</div>
+            <div class="keyword-title">Information extraction</div>
+            <p class="keyword-desc">Entities, relations, and semi-structured outputs from documents and noisy text.</p>
           </div>
           <div class="keyword-card" role="listitem">
-            <div class="keyword-title">🖼️ Multimodal LLMs</div>
+            <div class="keyword-title">Multimodal LLMs</div>
+            <p class="keyword-desc">Vision–language reasoning, grounding, and evaluation of large multimodal models.</p>
           </div>
           <div class="keyword-card" role="listitem">
-            <div class="keyword-title">🗄️ NL2SQL &amp; Interactive Systems</div>
+            <div class="keyword-title">NL2SQL &amp; interactive systems</div>
+            <p class="keyword-desc">Natural language interfaces to data and agents that query and explain structured stores.</p>
           </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section publications-section">
+        <div class="section-head reveal">
+          <h2>Publications</h2>
+          <p class="muted section-tagline">Papers and preprints (BibTeX-driven list).</p>
+        </div>
+
+        <div class="pub-shell reveal">
+          <div class="pub-status">
+            <p class="pub-loading" id="pub-loading">Loading…</p>
+            <p class="pub-empty muted" id="pub-empty" hidden>No publications loaded.</p>
+          </div>
+
+          <div class="pub-feed" id="publications-list" role="list" hidden></div>
         </div>
       </section>
 
@@ -141,10 +157,10 @@
         </div>
       </section>
 
-      <section id="news" class="section">
+      <section id="updates" class="section">
         <div class="section-head reveal">
-          <h2>News ✨</h2>
-          <p class="muted section-tagline">Updates and talks.</p>
+          <h2>Updates</h2>
+          <p class="muted section-tagline">Talks, releases, and service.</p>
         </div>
 
         <div class="news-list reveal">
@@ -170,21 +186,19 @@
 
       <section id="projects" class="section">
         <div class="section-head reveal">
-          <h2>Projects 🚀</h2>
-          <p class="muted section-tagline">From my CV.</p>
+          <h2>Projects</h2>
+          <p class="muted section-tagline">Additional work summarized on my résumé; details in each card.</p>
         </div>
 
-        <h3 class="project-subhead reveal">Résumé projects</h3>
-        <p class="muted project-cv-lead reveal">Titles and summaries aligned with my CV; open a card for details.</p>
+        <h3 class="project-subhead reveal">Résumé highlights</h3>
         <div class="card-grid reveal project-grid-resume" id="projects-resume">
           <article class="project-card" data-project-id="vermillion">
             <div class="project-top">
               <h3>Vermillion</h3>
-              <span class="project-meta">CV</span>
+              <span class="project-meta">Résumé</span>
             </div>
-            <p class="project-desc">Research / engineering project as listed on my CV—see the modal for summary and context.</p>
+            <p class="project-desc">Research and engineering project; modal matches CV wording (editable in code).</p>
             <div class="project-actions">
-              <span class="ghost-muted">CV</span>
               <button class="ghost-btn" type="button" data-open-project>Details</button>
             </div>
           </article>
@@ -192,11 +206,10 @@
           <article class="project-card" data-project-id="unlearning">
             <div class="project-top">
               <h3>Unlearning</h3>
-              <span class="project-meta">CV</span>
+              <span class="project-meta">Résumé</span>
             </div>
-            <p class="project-desc">Machine unlearning–related project from my CV (scope and methods as on résumé).</p>
+            <p class="project-desc">Machine unlearning–related work as listed on my résumé.</p>
             <div class="project-actions">
-              <span class="ghost-muted">CV</span>
               <button class="ghost-btn" type="button" data-open-project>Details</button>
             </div>
           </article>
@@ -204,36 +217,20 @@
           <article class="project-card" data-project-id="darkmotions">
             <div class="project-top">
               <h3>DarkMotions</h3>
-              <span class="project-meta">CV</span>
+              <span class="project-meta">Résumé</span>
             </div>
-            <p class="project-desc">Project titled on my CV; open the modal for a short description aligned with my résumé.</p>
+            <p class="project-desc">Motion / low-light sensing project from my résumé; see modal for wording.</p>
             <div class="project-actions">
-              <span class="ghost-muted">CV</span>
               <button class="ghost-btn" type="button" data-open-project>Details</button>
             </div>
           </article>
         </div>
       </section>
 
-      <section id="publications" class="section publications-section">
-        <div class="section-head reveal">
-          <h2>Publications 📚</h2>
-        </div>
-
-        <div class="pub-shell reveal">
-          <div class="pub-status">
-            <p class="pub-loading" id="pub-loading">Loading…</p>
-            <p class="pub-empty muted" id="pub-empty" hidden>No publications loaded.</p>
-          </div>
-
-          <div class="pub-feed" id="publications-list" role="list" hidden></div>
-        </div>
-      </section>
-
       <section id="tech-stack" class="section">
         <div class="section-head reveal">
-          <h2>Tech Stack 🧰</h2>
-          <p class="muted section-tagline">Symbol-only quick stack.</p>
+          <h2>Stack</h2>
+          <p class="muted section-tagline">Languages, ML, data, and tooling (icons only).</p>
         </div>
 
         <div class="stack-grid reveal" role="list" aria-label="Tech stack symbols">
@@ -254,8 +251,8 @@
 
       <section id="contact" class="section">
         <div class="section-head reveal">
-          <h2>Contact 📬</h2>
-          <p class="muted section-tagline">Let’s connect.</p>
+          <h2>Contact</h2>
+          <p class="muted section-tagline">Email and profiles.</p>
         </div>
 
         <div class="contact-grid reveal">
@@ -264,7 +261,7 @@
           <a class="contact-link" href="https://github.com/fenil-b" target="_blank" rel="noopener">GitHub</a>
           <a class="contact-link" href="https://scholar.google.com/citations?user=0dxHSiIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
           <a class="contact-link" href="https://www.linkedin.com/in/fenil-bardoliya/" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="contact-link" href="https://www.instagram.com/cv2.random_click/" target="_blank" rel="noopener">Photography 📷</a>
+          <a class="contact-link" href="https://www.instagram.com/cv2.random_click/" target="_blank" rel="noopener">Photography (Instagram)</a>
           <a class="contact-link" data-resume-link-2 href="/FDB-Resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
           <a class="contact-link" data-cv-link-2 href="/FDB-CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
         </div>
