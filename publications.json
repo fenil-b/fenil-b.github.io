@@ -10,7 +10,8 @@
     "video": null,
     "dataset": null,
     "slides": null,
-    "abstract": "Large language models (LLMs) are often claimed to exhibit reasoning ability when supervised with chain-of-thought (CoT) traces. True reasoning, however, requires invariance: isomorphic problems should yield identical solutions regardless of superficial variation. We test this property by evaluating base and reasoning-optimized models—including LLaMA, Mistral, Qwen, GPT-OSS, and Deepseek—on isomorphic variants from GSM8K and MATH. All models exhibit substantial accuracy drops under perturbation. To assess whether training can induce invariance, we fine-tune models with Program-of-Thought (PoT) supervision under concrete and masked formulations. PoT fine-tuning increases behavioral cross-variant consistency but does not significantly reduce the accuracy gap, and these gains fail to transfer across prompting formats and domains. Our central finding is that models converge toward stable but systematically incorrect behaviors: consistency without correctness. This dissociation suggests that current reasoning supervision teaches models to reproduce solution templates rather than to abstract mathematical structure."
+    "abstract": "Large language models (LLMs) are often claimed to exhibit reasoning ability when supervised with chain-of-thought (CoT) traces. True reasoning, however, requires invariance: isomorphic problems should yield identical solutions regardless of superficial variation. We test this property by evaluating base and reasoning-optimized models—including LLaMA, Mistral, Qwen, GPT-OSS, and Deepseek—on isomorphic variants from GSM8K and MATH. All models exhibit substantial accuracy drops under perturbation. To assess whether training can induce invariance, we fine-tune models with Program-of-Thought (PoT) supervision under concrete and masked formulations. PoT fine-tuning increases behavioral cross-variant consistency but does not significantly reduce the accuracy gap, and these gains fail to transfer across prompting formats and domains. Our central finding is that models converge toward stable but systematically incorrect behaviors: consistency without correctness. This dissociation suggests that current reasoning supervision teaches models to reproduce solution templates rather than to abstract mathematical structure.",
+    "preview": null
   },
   {
     "title": "The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs",
@@ -23,7 +24,8 @@
     "video": null,
     "dataset": null,
     "slides": null,
-    "abstract": null
+    "abstract": null,
+    "preview": "PO_teaser.jpg"
   },
   {
     "title": "SPORTSQL: An Interactive System for Real-Time Sports Reasoning and Visualization",
@@ -36,7 +38,8 @@
     "video": "https://www.youtube.com/watch?v=xqUyiA-R6aI",
     "dataset": null,
     "slides": null,
-    "abstract": null
+    "abstract": null,
+    "preview": "SPORTSQL.png"
   },
   {
     "title": "Map&Make: Schema Guided Text to Table Generation",
@@ -49,7 +52,8 @@
     "video": "https://drive.google.com/file/d/16sZNx_Ll0hk0nNpHd-KVriozSde8BvBE/view",
     "dataset": "https://huggingface.co/datasets/McH04/Rotowire-Text-to-Table",
     "slides": "https://drive.google.com/file/d/1lunNBjeLNCwK7Ss4FGaFDLr86OiaQyCt/view",
-    "abstract": "Transforming dense, unstructured text into interpretable tables—commonly referred to as Text-to-Table generation—is a key task in information extraction. Existing methods often overlook what complex information to extract and how to infer it from text. We present Map&Make, a versatile approach that decomposes text into atomic propositions to infer latent schemas, which are then used to generate tables capturing both qualitative nuances and quantitative facts. We evaluate our method on three challenging datasets: Rotowire, known for its complex, multi-table schema; Livesum which requires numerical aggregation; and Wiki40 which require open text extraction from mulitple domains. By correcting hallucination errors in Rotowire, we also provide a cleaner benchmark. Our method shows significant gains in both accuracy and interpretability across comprehensive comparative and referenceless metrics. Finally, ablation studies highlight the key factors driving performance and validate the utility of our approach in structured summarization. Code and data are available at: https://coral-lab-asu.github.io/map-make."
+    "abstract": "Transforming dense, unstructured text into interpretable tables—commonly referred to as Text-to-Table generation—is a key task in information extraction. Existing methods often overlook what complex information to extract and how to infer it from text. We present Map&Make, a versatile approach that decomposes text into atomic propositions to infer latent schemas, which are then used to generate tables capturing both qualitative nuances and quantitative facts. We evaluate our method on three challenging datasets: Rotowire, known for its complex, multi-table schema; Livesum which requires numerical aggregation; and Wiki40 which require open text extraction from mulitple domains. By correcting hallucination errors in Rotowire, we also provide a cleaner benchmark. Our method shows significant gains in both accuracy and interpretability across comprehensive comparative and referenceless metrics. Finally, ablation studies highlight the key factors driving performance and validate the utility of our approach in structured summarization. Code and data are available at: https://coral-lab-asu.github.io/map-make.",
+    "preview": "abstract-m-and-m.png"
   },
   {
     "title": "Evaluating Multimodal Large Language Models Across Distribution Shifts and Augmentations",
@@ -62,6 +66,7 @@
     "video": null,
     "dataset": null,
     "slides": null,
-    "abstract": null
+    "abstract": null,
+    "preview": "MLLM_Hallucinations_thumbnail.png"
   }
 ]
