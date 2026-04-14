@@ -27,10 +27,22 @@
         const el = document.getElementById('list');
         el.innerHTML = entries.map(p => {
           const links = [];
-          if (p.pdf) links.push('<a href="' + p.pdf + '">PDF</a>');
-          if (p.website) links.push('<a href="' + p.website + '">Website</a>');
-          if (p.code) links.push('<a href="' + p.code + '">Code</a>');
-          return '<li><span class="pub-title">' + escape(p.title) + '</span><span class="pub-meta">' + escape(p.authors) + '. ' + escape(p.venue) + ' ' + escape(p.year) + '.</span><div class="pub-links">' + links.join(' ') + '</div></li>';
+          const seen = new Set();
+          function u(h, label) {
+            if (!h || seen.has(h)) return;
+            seen.add(h);
+            links.push('<a href="' + h + '">' + label + '</a>');
+          }
+          u(p.pdf, 'PDF');
+          u(p.website, 'Website');
+          u(p.code, 'Code');
+          u(p.dataset, 'Dataset');
+          u(p.slides, 'Slides');
+          u(p.video, 'Video');
+          const abs = p.abstract
+            ? '<details style="margin-top:0.35rem"><summary>Abstract</summary><p style="font-size:0.85rem;color:#444">' + escape(p.abstract) + '</p></details>'
+            : '';
+          return '<li><span class="pub-title">' + escape(p.title) + '</span><span class="pub-meta">' + escape(p.authors) + '. ' + escape(p.venue) + ' ' + escape(p.year) + '.</span><div class="pub-links">' + links.join(' ') + '</div>' + abs + '</li>';
         }).join('');
       });
     function escape(s) { return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }

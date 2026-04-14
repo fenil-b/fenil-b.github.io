@@ -1,21 +1,29 @@
 [
   {
     "title": "Program-of-Thought Reveals LLM Abstraction Ceilings",
-    "authors": "Mike Zhou, Fenil Bardoliya, Vivek Gupta, Dan Roth",
-    "venue": "Findings of the Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+    "authors": "Zhou, Mike, Bardoliya, Fenil, Gupta, Vivek, Roth, Dan",
+    "venue": "Findings of the Association for Computational Linguistics: EACL 2026",
     "year": "2026",
-    "pdf": "https://cogcomp.seas.upenn.edu/papers/ZBGR26.pdf",
+    "pdf": "https://aclanthology.org/2026.findings-eacl.257/",
     "website": null,
-    "code": null
+    "code": null,
+    "video": null,
+    "dataset": null,
+    "slides": null,
+    "abstract": "Large language models (LLMs) are often claimed to exhibit reasoning ability when supervised with chain-of-thought (CoT) traces. True reasoning, however, requires invariance: isomorphic problems should yield identical solutions regardless of superficial variation. We test this property by evaluating base and reasoning-optimized models—including LLaMA, Mistral, Qwen, GPT-OSS, and Deepseek—on isomorphic variants from GSM8K and MATH. All models exhibit substantial accuracy drops under perturbation. To assess whether training can induce invariance, we fine-tune models with Program-of-Thought (PoT) supervision under concrete and masked formulations. PoT fine-tuning increases behavioral cross-variant consistency but does not significantly reduce the accuracy gap, and these gains fail to transfer across prompting formats and domains. Our central finding is that models converge toward stable but systematically incorrect behaviors: consistency without correctness. This dissociation suggests that current reasoning supervision teaches models to reproduce solution templates rather than to abstract mathematical structure."
   },
   {
-    "title": "The Perceptual Observatory: Characterizing Robustness and Grounding in MLLMs",
-    "authors": "Tejas Anvekar, Fenil Bardoliya, Pavan K. Turaga, Chitta Baral, Vivek Gupta",
-    "venue": "2025",
-    "year": "2025",
-    "pdf": "https://arxiv.org/pdf/2512.15949",
+    "title": "The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs",
+    "authors": "Anvekar, Tejas, Bardoliya, Fenil, Turaga, Pavan K., Baral, Chitta, Gupta, Vivek",
+    "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+    "year": "2026",
+    "pdf": "https://openaccess.thecvf.com/content/WACV2026/papers/Anvekar_The_Perceptual_Observatory_Characterizing_Robustness_and_Grounding_in_MLLMs_WACV_2026_paper.pdf",
     "website": "https://coral-lab-asu.github.io/PerceptualObservatory/",
-    "code": null
+    "code": "https://github.com/CoRAL-ASU/PerceptualObservatory",
+    "video": null,
+    "dataset": null,
+    "slides": null,
+    "abstract": null
   },
   {
     "title": "SPORTSQL: An Interactive System for Real-Time Sports Reasoning and Visualization",
@@ -23,25 +31,37 @@
     "venue": "Proceedings of IJCNLP-AACL 2025: System Demonstrations",
     "year": "2025",
     "pdf": "https://aclanthology.org/2025.ijcnlp-demo.11.pdf",
-    "website": null,
-    "code": null
+    "website": "https://coral-lab-asu.github.io/SportSQL/",
+    "code": "https://github.com/coral-lab-asu/SportSQL",
+    "video": "https://www.youtube.com/watch?v=xqUyiA-R6aI",
+    "dataset": null,
+    "slides": null,
+    "abstract": null
   },
   {
     "title": "Map&Make: Schema Guided Text to Table Generation",
-    "authors": "Naman Ahuja, Fenil Bardoliya, Chitta Baral, Vivek Gupta",
-    "venue": "Proceedings of ACL 2025 (Volume 1: Long Papers)",
+    "authors": "Ahuja, Naman, Bardoliya, Fenil, Baral, Chitta, Gupta, Vivek",
+    "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "year": "2025",
-    "pdf": "https://aclanthology.org/2025.acl-long.1460.pdf",
+    "pdf": "https://aclanthology.org/2025.acl-long.1460/",
     "website": "https://coral-lab-asu.github.io/map-make/",
-    "code": "https://coral-lab-asu.github.io/map-make/"
+    "code": "https://coral-lab-asu.github.io/map-make/",
+    "video": "https://drive.google.com/file/d/16sZNx_Ll0hk0nNpHd-KVriozSde8BvBE/view",
+    "dataset": "https://huggingface.co/datasets/McH04/Rotowire-Text-to-Table",
+    "slides": "https://drive.google.com/file/d/1lunNBjeLNCwK7Ss4FGaFDLr86OiaQyCt/view",
+    "abstract": "Transforming dense, unstructured text into interpretable tables—commonly referred to as Text-to-Table generation—is a key task in information extraction. Existing methods often overlook what complex information to extract and how to infer it from text. We present Map&Make, a versatile approach that decomposes text into atomic propositions to infer latent schemas, which are then used to generate tables capturing both qualitative nuances and quantitative facts. We evaluate our method on three challenging datasets: Rotowire, known for its complex, multi-table schema; Livesum which requires numerical aggregation; and Wiki40 which require open text extraction from mulitple domains. By correcting hallucination errors in Rotowire, we also provide a cleaner benchmark. Our method shows significant gains in both accuracy and interpretability across comprehensive comparative and referenceless metrics. Finally, ablation studies highlight the key factors driving performance and validate the utility of our approach in structured summarization. Code and data are available at: https://coral-lab-asu.github.io/map-make."
   },
   {
     "title": "Evaluating Multimodal Large Language Models Across Distribution Shifts and Augmentations",
-    "authors": "Aayush Atul Verma, Amir Saeidi, Shamanthak Hegde, Ajay Therala, Fenil Denish Bardoliya, others",
-    "venue": "Proceedings of CVPR Workshops",
+    "authors": "Verma, Aayush Atul, Saeidi, Amir, Hegde, Shamanthak, Therala, Ajay, Bardoliya, Fenil Denish, Machavarapu, Nagaraju, Ravindhiran, Shri Ajay Kumar, Malyala, Srija, Chatterjee, Agneet, Yang, Yezhou, Baral, Chitta",
+    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
     "year": "2024",
     "pdf": "https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/papers/Verma_Evaluating_Multimodal_Large_Language_Models_Across_Distribution_Shifts_and_Augmentations_CVPRW_2024_paper.pdf",
     "website": null,
-    "code": null
+    "code": null,
+    "video": null,
+    "dataset": null,
+    "slides": null,
+    "abstract": null
   }
 ]

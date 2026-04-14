@@ -6,16 +6,13 @@
     <title>Fenil Bardoliya</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-D9up7tHG.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DxETViGP.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/assets/index-CaSH1fvZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-vObmUCiQ.css">
   </head>
   <body>
-    <canvas id="bg-canvas" aria-hidden="true"></canvas>
-
     <header class="topbar">
       <div class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
         <a class="brand-name" href="#about">Fenil Bardoliya</a>
       </div>
 
@@ -23,13 +20,24 @@
         <a href="#about" class="nav-link" data-nav="about">About</a>
         <a href="#research" class="nav-link" data-nav="research">Research</a>
         <a href="#experience" class="nav-link" data-nav="experience">Experience</a>
+        <a href="#news" class="nav-link" data-nav="news">News</a>
         <a href="#projects" class="nav-link" data-nav="projects">Projects</a>
         <a href="#publications" class="nav-link" data-nav="publications">Publications</a>
         <a href="#contact" class="nav-link" data-nav="contact">Contact</a>
       </nav>
 
       <div class="topbar-actions">
-        <button class="icon-btn" type="button" id="theme-toggle" aria-label="Toggle theme">Theme</button>
+        <div class="topbar-social" aria-label="Contact and social links">
+          <a class="social-icon-link" href="mailto:fenildbardoliya@gmail.com" aria-label="Email" title="Email">
+            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a class="social-icon-link" href="https://www.linkedin.com/in/fenil-bardoliya/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69A1.69 1.69 0 0 0 5.2 6.88c0 .93.76 1.69 1.69 1.69m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          </a>
+          <a class="social-icon-link" href="https://x.com/fenil_bardoliya" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) @fenil_bardoliya" title="@fenil_bardoliya on X">
+            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
         <a class="cv-link" data-resume-link href="/FDB-Resume.pdf" target="_blank" rel="noopener">CV</a>
       </div>
     </header>
@@ -49,6 +57,9 @@
             <p class="lead lead-2">
               My research focuses on <strong>natural language processing</strong>, <strong>text-to-table generation</strong>, and <strong>multimodal reasoning</strong>—building systems that turn unstructured text into interpretable, structured data and reason robustly across modalities.
             </p>
+            <p class="lead intro-note reveal">
+              If you’re interested in <strong>NLP, text-to-table, or multimodal evaluation</strong>, feel free to reach out. Outside of research, I enjoy traveling, swimming, tennis, basketball, and the occasional game of Dota 2.
+            </p>
             <div class="signal-row" aria-live="polite">
               <span class="signal-dot" id="signal-dot" aria-hidden="true"></span>
               <span class="signal-text" id="signal-text">Looking for full-time roles | Immediately available</span>
@@ -57,9 +68,9 @@
 
           <div class="hero-visual reveal">
             <div class="avatar-shell">
-              <img id="profile-img" class="avatar-img" src="/prof_pic.jpg" alt="Portrait of Fenil Bardoliya" />
-              <div class="avatar-fallback" aria-hidden="true"></div>
               <div class="avatar-ring" aria-hidden="true"></div>
+              <div class="avatar-fallback" aria-hidden="true"></div>
+              <img id="profile-img" class="avatar-img" src="/prof_pic.jpg" alt="Portrait of Fenil Bardoliya" />
             </div>
           </div>
         </div>
@@ -68,7 +79,7 @@
       <section id="research" class="section">
         <div class="section-head reveal">
           <h2>Research</h2>
-          <p class="muted">Broadly, I work at the intersection of:</p>
+          <p class="muted section-tagline">Broadly, I work at the intersection of:</p>
         </div>
 
         <div class="keyword-grid reveal" role="list" aria-label="Research keywords">
@@ -85,8 +96,8 @@
             <div class="keyword-desc">Robustness, grounding, and evaluation under distribution shift.</div>
           </div>
           <div class="keyword-card" role="listitem">
-            <div class="keyword-title">NL2SQL & Interactive Systems</div>
-            <div class="keyword-desc">Real-time QA + visualization over dynamic data.</div>
+            <div class="keyword-title">NL2SQL &amp; interactive systems</div>
+            <div class="keyword-desc">Real-time QA and visualization over dynamic data.</div>
           </div>
         </div>
       </section>
@@ -94,7 +105,7 @@
       <section id="experience" class="section">
         <div class="section-head reveal">
           <h2>Experience</h2>
-          <p class="muted">A quick timeline of roles and collaborations.</p>
+          <p class="muted section-tagline">Roles and collaborations.</p>
         </div>
 
         <div class="timeline reveal" role="list" aria-label="Experience timeline">
@@ -127,79 +138,106 @@
             </div>
           </article>
         </div>
+      </section>
 
-        <p class="note reveal">
-          If you're interested in <strong>NLP, text-to-table, or multimodal evaluation</strong>, feel free to reach out. Outside of research,
-          I enjoy traveling, swimming, tennis, basketball, and the occasional game of Dota 2.
-        </p>
+      <section id="news" class="section">
+        <div class="section-head reveal">
+          <h2>News</h2>
+          <p class="muted section-tagline">Updates and talks.</p>
+        </div>
+
+        <div class="news-list reveal">
+          <article class="news-card">
+            <time class="news-date" datetime="2026-04-30">30 Apr 2026</time>
+            <div class="news-body">
+              <h3 class="news-title">Perceptual Observatory · Voxel51 Best of WACV</h3>
+              <p class="news-text">
+                Presenting <strong>The Perceptual Observatory</strong> at <strong>Voxel51’s Best of WACV</strong> on <strong>30 April</strong>.
+                <a href="https://coral-lab-asu.github.io/PerceptualObservatory/" target="_blank" rel="noopener">Project page</a>
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="service-block reveal">
+          <h3 class="service-title">Service</h3>
+          <p class="service-text">
+            I serve as a <strong>reviewer</strong> for <strong>ICML</strong>, <strong>CVPR</strong>, and <strong>ACL</strong> workshops.
+          </p>
+        </div>
       </section>
 
       <section id="projects" class="section">
         <div class="section-head reveal">
           <h2>Projects</h2>
-          <p class="muted">Small demos, big ideas.</p>
+          <p class="muted section-tagline">From my CV.</p>
         </div>
 
-        <div class="card-grid reveal" id="projects-grid">
-          <article class="project-card" data-project-id="perceptual">
+        <h3 class="project-subhead reveal">Résumé projects</h3>
+        <p class="muted project-cv-lead reveal">Titles and summaries aligned with my CV; open a card for details.</p>
+        <div class="card-grid reveal project-grid-resume" id="projects-resume">
+          <article class="project-card" data-project-id="vermillion">
             <div class="project-top">
-              <h3>Perceptual Observatory</h3>
-              <span class="project-meta">WACV 2025</span>
+              <h3>Vermillion</h3>
+              <span class="project-meta">CV</span>
             </div>
-            <p class="project-desc">Characterizing robustness and grounding in multimodal large language models.</p>
+            <p class="project-desc">Research / engineering project as listed on my CV—see the modal for summary and context.</p>
             <div class="project-actions">
-              <a class="ghost-link" href="https://coral-lab-asu.github.io/PerceptualObservatory/" target="_blank" rel="noopener">Website</a>
+              <span class="ghost-muted">CV</span>
               <button class="ghost-btn" type="button" data-open-project>Details</button>
             </div>
           </article>
 
-          <article class="project-card" data-project-id="map-make">
+          <article class="project-card" data-project-id="unlearning">
             <div class="project-top">
-              <h3>Map&Make</h3>
-              <span class="project-meta">ACL 2025</span>
+              <h3>Unlearning</h3>
+              <span class="project-meta">CV</span>
             </div>
-            <p class="project-desc">Schema-guided text to table generation with interpretable structure.</p>
+            <p class="project-desc">Machine unlearning–related project from my CV (scope and methods as on résumé).</p>
             <div class="project-actions">
-              <a class="ghost-link" href="https://coral-lab-asu.github.io/map-make/" target="_blank" rel="noopener">Website</a>
+              <span class="ghost-muted">CV</span>
               <button class="ghost-btn" type="button" data-open-project>Details</button>
             </div>
           </article>
 
-          <article class="project-card" data-project-id="sportsql">
+          <article class="project-card" data-project-id="darkmotions">
             <div class="project-top">
-              <h3>SportSQL</h3>
-              <span class="project-meta">IJCNLP-AACL 2025 demo</span>
+              <h3>DarkMotions</h3>
+              <span class="project-meta">CV</span>
             </div>
-            <p class="project-desc">Interactive system for real-time sports reasoning and visualization.</p>
+            <p class="project-desc">Project titled on my CV; open the modal for a short description aligned with my résumé.</p>
             <div class="project-actions">
-              <a class="ghost-link" href="#" onclick="return false;" aria-disabled="true">Website</a>
+              <span class="ghost-muted">CV</span>
               <button class="ghost-btn" type="button" data-open-project>Details</button>
             </div>
           </article>
         </div>
       </section>
 
-      <section id="publications" class="section">
+      <section id="publications" class="section publications-section">
         <div class="section-head reveal">
           <h2>Publications</h2>
         </div>
 
-        <div class="pub-status">
-          <p class="pub-loading" id="pub-loading">Loading...</p>
-          <p class="pub-empty muted" id="pub-empty" hidden>No publications loaded.</p>
-        </div>
+        <div class="pub-shell reveal">
+          <div class="pub-status">
+            <p class="pub-loading" id="pub-loading">Loading…</p>
+            <p class="pub-empty muted" id="pub-empty" hidden>No publications loaded.</p>
+          </div>
 
-        <ol class="pub-list" id="publications-list" hidden></ol>
+          <div class="pub-feed" id="publications-list" role="list" hidden></div>
+        </div>
       </section>
 
       <section id="contact" class="section">
         <div class="section-head reveal">
           <h2>Contact</h2>
-          <p class="muted">Let’s build something useful.</p>
+          <p class="muted section-tagline">Let’s connect.</p>
         </div>
 
         <div class="contact-grid reveal">
           <a class="contact-link" href="mailto:fenildbardoliya@gmail.com">Email</a>
+          <a class="contact-link" href="https://x.com/fenil_bardoliya" target="_blank" rel="noopener">X</a>
           <a class="contact-link" href="https://scholar.google.com/citations?user=0dxHSiIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
           <a class="contact-link" href="https://www.linkedin.com/in/fenil-bardoliya/" target="_blank" rel="noopener">LinkedIn</a>
           <a class="contact-link" data-resume-link-2 href="/FDB-Resume.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
