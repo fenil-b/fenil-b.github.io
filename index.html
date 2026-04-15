@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/assets/index-MjIetd5p.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DGJCAJDU.css">
+    <script type="module" crossorigin src="/assets/index-CCCfBPyM.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CKCPmaH7.css">
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -169,14 +169,43 @@
       </section>
 
       <section id="experience" class="section section--alt">
-        <div class="section-inner">
+        <div class="section-inner section-inner--exp">
           <h2 class="section-title reveal">💼 Experience</h2>
-          <ul class="timeline reveal">
-            <li><strong>Graduate Research Associate</strong> — CoRAL, ASU. NLP, text-to-table, multimodal evaluation; with Dr. Vivek Gupta.</li>
-            <li><strong>Computer Vision Research Aide</strong> — DREAMS LAB, ASU.</li>
-            <li><strong>Research Intern</strong> — Samsung Semiconductor India Research.</li>
-            <li><strong>B.E. Computer Science</strong> — BITS Pilani.</li>
-          </ul>
+          <div class="experience-list reveal">
+            <article class="exp-card">
+              <h3 class="exp-role">Graduate Research Associate</h3>
+              <p class="exp-org">CoRAL Lab · Arizona State University</p>
+              <p class="exp-meta">Jan 2025 – Present · Tempe, AZ</p>
+              <ul class="exp-points">
+                <li>Developing schema-guided text-to-table and information extraction systems for scientific and technical text.</li>
+                <li>Building robust evaluation pipelines for LLM and MLLM reliability under perturbation, shift, and multimodal noise.</li>
+                <li>Leading experiments and tooling for reproducible benchmarking with clear error analyses.</li>
+              </ul>
+              <div class="exp-tags"><span>NLP</span><span>LLMs</span><span>MLLMs</span><span>Evaluation</span></div>
+            </article>
+
+            <article class="exp-card">
+              <h3 class="exp-role">Computer Vision Research Aide</h3>
+              <p class="exp-org">DREAMS Lab · Arizona State University</p>
+              <p class="exp-meta">Aug 2024 – Dec 2024 · Tempe, AZ</p>
+              <ul class="exp-points">
+                <li>Worked on multimodal data analysis pipelines for vision tasks with model debugging and controlled ablations.</li>
+                <li>Implemented preprocessing and benchmarking scripts to improve throughput and consistency in experiments.</li>
+              </ul>
+              <div class="exp-tags"><span>Computer Vision</span><span>PyTorch</span><span>Data Pipelines</span></div>
+            </article>
+
+            <article class="exp-card">
+              <h3 class="exp-role">Research Intern</h3>
+              <p class="exp-org">Samsung Semiconductor India Research</p>
+              <p class="exp-meta">May 2023 – Jul 2023 · Bengaluru, India</p>
+              <ul class="exp-points">
+                <li>Contributed to model optimization and experimentation workflows for applied ML prototypes.</li>
+                <li>Collaborated with research and engineering teams to turn exploratory findings into deployable components.</li>
+              </ul>
+              <div class="exp-tags"><span>Applied ML</span><span>Optimization</span><span>Prototyping</span></div>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -206,42 +235,50 @@
         </div>
       </section>
 
-      <section id="stack" class="section section--stack section--stack-dark">
+      <section id="stack" class="section section--stack section--tint">
         <div class="section-inner section-inner--stack">
           <header class="stack-head reveal">
-            <h2 class="section-title section-title--on-dark">🛠️ Tech stack</h2>
-            <p class="stack-hint">Icon + label grid (like a skills matrix) — representative of résumé &amp; projects.</p>
+            <h2 class="section-title">🛠️ Tech stack</h2>
+            <p class="stack-hint">Official logos + skills matrix across languages, ML, data, and infra.</p>
           </header>
 
           <div class="stack-matrix reveal" aria-label="Technologies by category">
             <div class="stack-category">
               <h3 class="stack-category__title">Languages</h3>
               <ul class="stack-grid">
-                <li><span class="stack-ic" aria-hidden="true">🐍</span><span class="stack-name">Python</span></li>
-                <li><span class="stack-ic" aria-hidden="true">📱</span><span class="stack-name">Kotlin</span></li>
-                <li><span class="stack-ic" aria-hidden="true">☕</span><span class="stack-name">Java</span></li>
-                <li><span class="stack-ic" aria-hidden="true">⚙️</span><span class="stack-name">C++</span></li>
-                <li><span class="stack-ic" aria-hidden="true">🗄️</span><span class="stack-name">SQL</span></li>
-                <li><span class="stack-ic" aria-hidden="true">🟨</span><span class="stack-name">JavaScript</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/python/3776AB" alt="" /><span class="stack-name">Python</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/cplusplus/00599C" alt="" /><span class="stack-name">C++</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/java/ED8B00" alt="" /><span class="stack-name">Java</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="" /><span class="stack-name">JavaScript</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/typescript/3178C6" alt="" /><span class="stack-name">TypeScript</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/sqlite/003B57" alt="" /><span class="stack-name">SQL</span></li>
               </ul>
             </div>
             <div class="stack-category">
-              <h3 class="stack-category__title">ML &amp; frameworks</h3>
+              <h3 class="stack-category__title">ML, frameworks, and data</h3>
               <ul class="stack-grid">
-                <li><span class="stack-ic" aria-hidden="true">🔥</span><span class="stack-name">PyTorch</span></li>
-                <li><span class="stack-ic" aria-hidden="true">🧠</span><span class="stack-name">TensorFlow</span></li>
-                <li><span class="stack-ic" aria-hidden="true">🤗</span><span class="stack-name">Hugging Face</span></li>
-                <li><span class="stack-ic" aria-hidden="true">📓</span><span class="stack-name">Jupyter</span></li>
-                <li><span class="stack-ic" aria-hidden="true">📷</span><span class="stack-name">OpenCV</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/pytorch/EE4C2C" alt="" /><span class="stack-name">PyTorch</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/tensorflow/FF6F00" alt="" /><span class="stack-name">TensorFlow</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/huggingface/FFD21E" alt="" /><span class="stack-name">Hugging Face</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="" /><span class="stack-name">Scikit-learn</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/opencv/5C3EE8" alt="" /><span class="stack-name">OpenCV</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/jupyter/F37626" alt="" /><span class="stack-name">Jupyter</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/pandas/150458" alt="" /><span class="stack-name">Pandas</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/numpy/013243" alt="" /><span class="stack-name">NumPy</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/graphql/E10098" alt="" /><span class="stack-name">GraphQL</span></li>
               </ul>
             </div>
             <div class="stack-category">
               <h3 class="stack-category__title">Tools &amp; infra</h3>
               <ul class="stack-grid">
-                <li><span class="stack-ic" aria-hidden="true">🐳</span><span class="stack-name">Docker</span></li>
-                <li><span class="stack-ic" aria-hidden="true">🐙</span><span class="stack-name">Git</span></li>
-                <li><span class="stack-ic" aria-hidden="true">☁️</span><span class="stack-name">Cloud</span></li>
-                <li><span class="stack-ic" aria-hidden="true">💻</span><span class="stack-name">VS Code</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/docker/2496ED" alt="" /><span class="stack-name">Docker</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/git/F05032" alt="" /><span class="stack-name">Git</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/github/181717" alt="" /><span class="stack-name">GitHub</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/amazonwebservices/FF9900" alt="" /><span class="stack-name">AWS</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/googlecloud/4285F4" alt="" /><span class="stack-name">GCP</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/kubernetes/326CE5" alt="" /><span class="stack-name">Kubernetes</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/vscode/007ACC" alt="" /><span class="stack-name">VS Code</span></li>
+                <li><img class="stack-logo" src="https://cdn.simpleicons.org/linux/FCC624" alt="" /><span class="stack-name">Linux</span></li>
               </ul>
             </div>
           </div>
