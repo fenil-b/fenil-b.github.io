@@ -15,7 +15,7 @@
   },
   {
     "title": "The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs",
-    "authors": "Tejas Anvekar, Fenil Bardoliya, Pavan K. Turaga, Chitta Baral, Vivek Gupta",
+    "authors": "Tejas Anvekar*, Fenil Bardoliya*, Pavan K. Turaga, Chitta Baral, Vivek Gupta",
     "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
     "year": "2026",
     "pdf": "https://openaccess.thecvf.com/content/WACV2026/papers/Anvekar_The_Perceptual_Observatory_Characterizing_Robustness_and_Grounding_in_MLLMs_WACV_2026_paper.pdf",
@@ -43,7 +43,7 @@
   },
   {
     "title": "Map&Make: Schema Guided Text to Table Generation",
-    "authors": "Naman Ahuja, Fenil Bardoliya, Chitta Baral, Vivek Gupta",
+    "authors": "Naman Ahuja*, Fenil Bardoliya*, Chitta Baral, Vivek Gupta",
     "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "year": "2025",
     "pdf": "https://aclanthology.org/2025.acl-long.1460/",
@@ -57,7 +57,7 @@
   },
   {
     "title": "Evaluating Multimodal Large Language Models Across Distribution Shifts and Augmentations",
-    "authors": "Aayush Atul Verma, Amir Saeidi, Shamanthak Hegde, Ajay Therala, Fenil Denish Bardoliya, Nagaraju Machavarapu, Shri Ajay Kumar Ravindhiran, Srija Malyala, Agneet Chatterjee, Yezhou Yang, Chitta Baral",
+    "authors": "Aayush Atul Verma*, Amir Saeidi*, Shamanthak Hegde*, Ajay Therala*, Fenil Denish Bardoliya*, Nagaraju Machavarapu*, Shri Ajay Kumar Ravindhiran*, Srija Malyala*, Agneet Chatterjee*, Yezhou Yang, Chitta Baral",
     "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
     "year": "2024",
     "pdf": "https://openaccess.thecvf.com/content/CVPR2024W/EvGenFM/papers/Verma_Evaluating_Multimodal_Large_Language_Models_Across_Distribution_Shifts_and_Augmentations_CVPRW_2024_paper.pdf",
