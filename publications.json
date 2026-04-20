@@ -11,7 +11,7 @@
     "dataset": null,
     "slides": null,
     "abstract": "Large language models (LLMs) are often claimed to exhibit reasoning ability when supervised with chain-of-thought (CoT) traces. True reasoning, however, requires invariance: isomorphic problems should yield identical solutions regardless of superficial variation. We test this property by evaluating base and reasoning-optimized models—including LLaMA, Mistral, Qwen, GPT-OSS, and Deepseek—on isomorphic variants from GSM8K and MATH. All models exhibit substantial accuracy drops under perturbation. To assess whether training can induce invariance, we fine-tune models with Program-of-Thought (PoT) supervision under concrete and masked formulations. PoT fine-tuning increases behavioral cross-variant consistency but does not significantly reduce the accuracy gap, and these gains fail to transfer across prompting formats and domains. Our central finding is that models converge toward stable but systematically incorrect behaviors: consistency without correctness. This dissociation suggests that current reasoning supervision teaches models to reproduce solution templates rather than to abstract mathematical structure.",
-    "preview": null
+    "preview": "pot_eacl_poster.png"
   },
   {
     "title": "The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs",
